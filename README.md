@@ -190,7 +190,7 @@ curl localhost:6060/api/applications-details --header "authorization: Bearer <to
   "status_code": 403,
   "error_description": "insufficient_scope",
   "message": "Insufficient scope, expected any of: read:actions",
-  "exception": True,
+  "exception": True
 }
 ```
 ### 500s errors
